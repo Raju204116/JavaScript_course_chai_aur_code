@@ -1,4 +1,5 @@
 
+// function means parenthesis ()
 
 /***************************** */
 function myFunction (){
@@ -8,7 +9,7 @@ function myFunction (){
 
 
 
-/***************************** */
+/******************************/
 function addTwoNumber(num1,num2){  //these (num1,num2) are called parameters
     console.log("Sum is : ", num1+num2)
 }

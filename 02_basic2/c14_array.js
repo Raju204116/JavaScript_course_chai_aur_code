@@ -1,4 +1,6 @@
 
+//Array means bracket []
+
 //documentation
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
