@@ -130,5 +130,59 @@ function loginUserMsg4(userName){
     }
     return `${userName} just logged in.` 
 }
-console.log(loginUserMsg5()) //ekon eita empty thakleo default name print hobe. =>defaultName just logged in.
-console.log(loginUserMsg5("Raju")) //ar value dile seta default ke override kore dibe. =>Raju just logged in.
+// console.log(loginUserMsg5()) //ekon eita empty thakleo default name print hobe. =>defaultName just logged in.
+// console.log(loginUserMsg5("Raju")) //ar value dile seta default ke override kore dibe. =>Raju just logged in.
+
+
+
+
+
+
+
+/***********Types of function declaration (out of tutorial:gpt)**************** */
+
+//1. Normal Declaration : Hoisted হয় অর্থাৎ Function define করার আগেও call করা যায়।
+
+// function chai() {
+//     let chaiName = "Ispahani";
+//     console.log(chaiName);
+// }
+// chai(); //Ispahani
+
+
+// //calling first , then defining
+// sayHello(); //Hello
+// function sayHello() {
+//     console.log("Hello");
+// }
+
+
+
+//2. Expression Declaration : Define করার আগে call করলে error হবে। function-টাকে একটা variable (chai2) এর মধ্যে store করা হয় .
+//Hoisted হয় না (আসলে variable hoist হয়, কিন্তু initialize হয় না)।
+
+// const chai2 = function () {
+//     let chaiName = "taza";
+//     console.log(chaiName);
+// }
+// chai2(); //taza
+
+
+// //can't use like this 
+// sayHello(); // error
+// const sayHello = function () {
+//     console.log("Hello");
+// }
+
+
+
+
+
+
+//3. Arrow Function  : details in class 23
+
+ const chai3 = () => {
+    let chaiName = "Fresh";
+    console.log(chaiName);
+}
+chai3(); //fresh 
