@@ -15,4 +15,8 @@ then write in the terminal : node foldername/filename.js
 // i.e =  C:\Users\raju2\OneDrive\Desktop\Web\3.2_JavaScript course (chai aur code)\01_basic> 
 
 
+//Trick to duplicate a code : (instead of copy)
+select the code block, then press 
+shift + alt + down arrow
+
 */
