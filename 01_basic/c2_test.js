@@ -16,7 +16,7 @@ then write in the terminal : node foldername/filename.js
 
 
 //Trick to duplicate a code : (instead of copy)
-select the code block, then press 
-shift + alt + down arrow
+select the code block, then press :  
+        shift + alt + down arrow
 
 */
