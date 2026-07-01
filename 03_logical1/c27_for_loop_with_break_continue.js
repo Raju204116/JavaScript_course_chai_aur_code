@@ -1,5 +1,8 @@
 
+//loop is also called iterations
 
+
+/**************************** */
 //single loop : print 1 to 10
 
 // for( let i = 0 ; i<=10 ; i++){
